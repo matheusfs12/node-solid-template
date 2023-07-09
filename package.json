@@ -1,0 +1,31 @@
+{
+    "name": "solid",
+    "type": "module",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "dev": "tsx watch --transpileOnly src/index.ts",
+        "build": "tsc",
+        "test": "vitest"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "date-fns": "^2.30.0",
+        "express": "^4.18.2"
+    },
+    "devDependencies": {
+        "@types/cors": "^2.8.13",
+        "@types/express": "^4.17.17",
+        "@types/node": "^20.4.1",
+        "@typescript-eslint/eslint-plugin": "^5.61.0",
+        "@typescript-eslint/parser": "^5.61.0",
+        "eslint": "^8.44.0",
+        "eslint-config-prettier": "^8.8.0",
+        "prettier": "^3.0.0",
+        "ts-node-dev": "^2.0.0",
+        "tsx": "^3.12.7",
+        "typescript": "^5.1.6",
+        "vitest": "^0.33.0"
+    }
+}
